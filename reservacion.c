@@ -230,7 +230,7 @@ int mostrarInfoReserva(int filas, int cols, char *asientos[], char id[]) {
                             break;
 
                         case 'E':
-                            printf(" %-15s |  %d%c", "Economy", 
+                            printf(" %-15s |  %d%c\n", "Economy", 
                                     i + 1, j + 'A');
                             break;
 
