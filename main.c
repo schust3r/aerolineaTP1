@@ -15,6 +15,7 @@
 #include "reservacion.h"
 #include "colores.h"
 #include "validacion.h"
+#include "escritura.h"
 
 // Array para almacenar directorio del archivo txt
 char dir[256];
@@ -58,6 +59,7 @@ int menu() {
     printf(" e. Mostrar ocupación \n");
     printf(" f. Mostrar estadísticas \n");
     printf(" g. Empezar de nuevo \n");
+    printf(" y. Salir y guardar cambios \n");
     printf(" x. Salir del programa \n\n");
 
     // Leer el caracter de opcion
@@ -127,8 +129,11 @@ int menu() {
     } if (op == 'g') {
         cargarDatos();
         mostrarInformacion();
+
+    } if (op == 'y') {
+        escribirEnTxt(vuelo.filas, vuelo.columnas, &cabecera, &asientos, dir);
         
-    } if (op != 'x') {
+    } if (op != 'x' && op != 'y') {
         menu();
     }
 }

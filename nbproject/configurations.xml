@@ -6,6 +6,7 @@
                    projectFiles="true">
       <itemPath>colores.h</itemPath>
       <itemPath>constructor.h</itemPath>
+      <itemPath>escritura.h</itemPath>
       <itemPath>informacion.h</itemPath>
       <itemPath>lectura.h</itemPath>
       <itemPath>reservacion.h</itemPath>
@@ -20,6 +21,7 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>constructor.c</itemPath>
+      <itemPath>escritura.c</itemPath>
       <itemPath>informacion.c</itemPath>
       <itemPath>lectura.c</itemPath>
       <itemPath>main.c</itemPath>
@@ -53,6 +55,10 @@
       <item path="constructor.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="constructor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="escritura.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="escritura.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="informacion.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -100,6 +106,10 @@
       <item path="constructor.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="constructor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="escritura.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="escritura.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="informacion.c" ex="false" tool="0" flavor2="0">
       </item>

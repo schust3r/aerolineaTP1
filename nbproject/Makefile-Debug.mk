@@ -36,6 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/constructor.o \
+	${OBJECTDIR}/escritura.o \
 	${OBJECTDIR}/informacion.o \
 	${OBJECTDIR}/lectura.o \
 	${OBJECTDIR}/main.o \
@@ -71,6 +72,11 @@ ${OBJECTDIR}/constructor.o: constructor.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/constructor.o constructor.c
+
+${OBJECTDIR}/escritura.o: escritura.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/escritura.o escritura.c
 
 ${OBJECTDIR}/informacion.o: informacion.c 
 	${MKDIR} -p ${OBJECTDIR}
